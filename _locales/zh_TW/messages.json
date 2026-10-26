@@ -1,0 +1,92 @@
+{
+  "extName": {
+    "message": "[B.M] MovieFFM 下載器"
+  },
+  "extDescription": {
+    "message": "MovieFFM 電影頁面的影片下載工具；會自動依序嘗試可用的播放來源。"
+  },
+  "downloadButton": {
+    "message": "下載"
+  },
+  "downloadingTitleLabel": {
+    "message": "正在下載："
+  },
+  "sourceLabel": {
+    "message": "來源："
+  },
+  "progressLabel": {
+    "message": "進度："
+  },
+  "waitingSource": {
+    "message": "等待來源"
+  },
+  "downloadInProgress": {
+    "message": "此模式已有下載進行中。"
+  },
+  "pauseButton": {
+    "message": "暫停"
+  },
+  "resumeButton": {
+    "message": "恢復"
+  },
+  "stopButton": {
+    "message": "停止"
+  },
+  "downloadStopped": {
+    "message": "下載已停止。"
+  },
+  "downloadControlFailed": {
+    "message": "無法變更下載狀態，請再試一次。"
+  },
+  "tryingSource": {
+    "message": "正在嘗試來源 $1 / $2 · 已等待 $3 秒"
+  },
+  "downloadStarted": {
+    "message": "已找到可用來源，下載已開始。"
+  },
+  "noPage": {
+    "message": "請先開啟 MovieFFM 電影頁面。"
+  },
+  "wrongPage": {
+    "message": "目前頁面不是 MovieFFM。"
+  },
+  "noSources": {
+    "message": "找不到可用的下載來源，請確認影片頁面已載入。"
+  },
+  "permissionDenied": {
+    "message": "需要允許連線至影片來源，才能開始下載。"
+  },
+  "allSourcesFailed": {
+    "message": "所有下載來源都無法使用，請稍後再試。"
+  },
+  "failureReasonLabel": {
+    "message": "錯誤原因："
+  },
+  "downloadFailed": {
+    "message": "下載失敗，請確認來源可用後重試。"
+  },
+  "readyHint": {
+    "message": "開啟 MovieFFM 影片頁後按「下載」，即可自動嘗試各個來源。"
+  },
+  "readingSources": {
+    "message": "正在讀取影片來源…"
+  },
+  "requestingPermission": {
+    "message": "請允許連線至影片來源…"
+  },
+  "downloadingProgress": {
+    "message": "正在下載 $1%"
+  },
+  "downloadComplete": {
+    "message": "下載完成。"
+  },
+  "downloadInterrupted": {
+    "message": "下載中斷，請再試一次。"
+  },
+  "openSiteButton": {
+    "message": "開啟 MovieFFM"
+  },
+  "openSiteFailed": {
+    "message": "無法開啟 MovieFFM，請稍後重試。"
+  }
+}

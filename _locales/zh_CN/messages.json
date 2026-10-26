@@ -1,0 +1,92 @@
+{
+  "extName": {
+    "message": "[B.M] MovieFFM 下载器"
+  },
+  "extDescription": {
+    "message": "MovieFFM 电影页面的视频下载工具；会自动依次尝试可用的播放源。"
+  },
+  "downloadButton": {
+    "message": "下载"
+  },
+  "downloadingTitleLabel": {
+    "message": "正在下载："
+  },
+  "sourceLabel": {
+    "message": "来源："
+  },
+  "progressLabel": {
+    "message": "进度："
+  },
+  "waitingSource": {
+    "message": "等待来源"
+  },
+  "downloadInProgress": {
+    "message": "当前模式已有下载正在进行。"
+  },
+  "pauseButton": {
+    "message": "暂停"
+  },
+  "resumeButton": {
+    "message": "恢复"
+  },
+  "stopButton": {
+    "message": "停止"
+  },
+  "downloadStopped": {
+    "message": "下载已停止。"
+  },
+  "downloadControlFailed": {
+    "message": "无法更改下载状态，请重试。"
+  },
+  "tryingSource": {
+    "message": "正在尝试来源 $1 / $2 · 已等待 $3 秒"
+  },
+  "downloadStarted": {
+    "message": "已找到可用来源，下载已开始。"
+  },
+  "noPage": {
+    "message": "请先打开 MovieFFM 电影页面。"
+  },
+  "wrongPage": {
+    "message": "当前页面不是 MovieFFM。"
+  },
+  "noSources": {
+    "message": "找不到可用的下载源，请确认视频页面已加载。"
+  },
+  "permissionDenied": {
+    "message": "需要允许连接到视频源，才能开始下载。"
+  },
+  "allSourcesFailed": {
+    "message": "所有下载源都无法使用，请稍后重试。"
+  },
+  "failureReasonLabel": {
+    "message": "错误原因："
+  },
+  "downloadFailed": {
+    "message": "下载失败，请确认来源可用后重试。"
+  },
+  "readyHint": {
+    "message": "打开 MovieFFM 视频页后点击“下载”，即可自动尝试各个来源。"
+  },
+  "readingSources": {
+    "message": "正在读取视频来源…"
+  },
+  "requestingPermission": {
+    "message": "请允许连接到视频来源…"
+  },
+  "downloadingProgress": {
+    "message": "正在下载 $1%"
+  },
+  "downloadComplete": {
+    "message": "下载完成。"
+  },
+  "downloadInterrupted": {
+    "message": "下载中断，请重试。"
+  },
+  "openSiteButton": {
+    "message": "打开 MovieFFM"
+  },
+  "openSiteFailed": {
+    "message": "无法打开 MovieFFM，请稍后重试。"
+  }
+}

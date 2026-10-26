@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="heading">
+      <img class="brand-mark" src="icons/movieffm.png" alt="">
+      <div class="heading-copy">
+        <h1 id="popupTitle" class="title"></h1>
+        <p id="version" class="version">v0.1.0</p>
+      </div>
+    </header>
+    <div class="button-list">
+      <button id="openSiteBtn" type="button" class="btn">
+        <span class="open-icon" aria-hidden="true">↗</span>
+        <span id="openSiteLabel"></span>
+      </button>
+      <button id="downloadBtn" type="button" class="btn">
+        <span class="download-icon" aria-hidden="true">↓</span>
+        <span id="downloadLabel"></span>
+      </button>
+      <div id="downloadControlRow" class="download-control-row" hidden>
+        <button id="pauseResumeBtn" type="button" class="btn"></button>
+        <button id="stopBtn" type="button" class="btn"></button>
+      </div>
+    </div>
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+    <div id="progressTrack" class="progress-track" hidden><div id="progressBar" class="progress-bar"></div></div>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

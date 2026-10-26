@@ -1,0 +1,92 @@
+{
+  "extName": {
+    "message": "[B.M] MovieFFM Downloader"
+  },
+  "extDescription": {
+    "message": "Download videos from MovieFFM movie pages. Available playback sources are tried automatically in order."
+  },
+  "downloadButton": {
+    "message": "Download"
+  },
+  "downloadingTitleLabel": {
+    "message": "Downloading:"
+  },
+  "sourceLabel": {
+    "message": "Source:"
+  },
+  "progressLabel": {
+    "message": "Progress:"
+  },
+  "waitingSource": {
+    "message": "Waiting for source"
+  },
+  "downloadInProgress": {
+    "message": "A download is already in progress in this mode."
+  },
+  "pauseButton": {
+    "message": "Pause"
+  },
+  "resumeButton": {
+    "message": "Resume"
+  },
+  "stopButton": {
+    "message": "Stop"
+  },
+  "downloadStopped": {
+    "message": "Download stopped."
+  },
+  "downloadControlFailed": {
+    "message": "Could not change the download state. Please try again."
+  },
+  "tryingSource": {
+    "message": "Trying source $1 of $2 · $3s elapsed"
+  },
+  "downloadStarted": {
+    "message": "A working source was found. Download started."
+  },
+  "noPage": {
+    "message": "Open a MovieFFM movie page first."
+  },
+  "wrongPage": {
+    "message": "The current page is not MovieFFM."
+  },
+  "noSources": {
+    "message": "No download sources found. Make sure the video page has loaded."
+  },
+  "permissionDenied": {
+    "message": "Allow access to the video sources to start downloading."
+  },
+  "allSourcesFailed": {
+    "message": "All download sources failed. Please try again later."
+  },
+  "failureReasonLabel": {
+    "message": "Failure reason:"
+  },
+  "downloadFailed": {
+    "message": "Download failed. Check the source and try again."
+  },
+  "readyHint": {
+    "message": "Open a MovieFFM video page and select Download to try each source automatically."
+  },
+  "readingSources": {
+    "message": "Reading video sources…"
+  },
+  "requestingPermission": {
+    "message": "Allow access to the video sources…"
+  },
+  "downloadingProgress": {
+    "message": "Downloading $1%"
+  },
+  "downloadComplete": {
+    "message": "Download complete."
+  },
+  "downloadInterrupted": {
+    "message": "Download interrupted. Please try again."
+  },
+  "openSiteButton": {
+    "message": "Open MovieFFM"
+  },
+  "openSiteFailed": {
+    "message": "Could not open MovieFFM. Please try again."
+  }
+}

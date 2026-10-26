@@ -1,0 +1,92 @@
+{
+  "extName": {
+    "message": "[B.M] MovieFFM ダウンローダー"
+  },
+  "extDescription": {
+    "message": "MovieFFM の映画ページ用動画ダウンローダーです。利用可能な再生ソースを順番に自動で試します。"
+  },
+  "downloadButton": {
+    "message": "ダウンロード"
+  },
+  "downloadingTitleLabel": {
+    "message": "ダウンロード中："
+  },
+  "sourceLabel": {
+    "message": "ソース："
+  },
+  "progressLabel": {
+    "message": "進捗："
+  },
+  "waitingSource": {
+    "message": "ソース待機中"
+  },
+  "downloadInProgress": {
+    "message": "このモードではすでにダウンロード中です。"
+  },
+  "pauseButton": {
+    "message": "一時停止"
+  },
+  "resumeButton": {
+    "message": "再開"
+  },
+  "stopButton": {
+    "message": "停止"
+  },
+  "downloadStopped": {
+    "message": "ダウンロードを停止しました。"
+  },
+  "downloadControlFailed": {
+    "message": "ダウンロードの状態を変更できませんでした。もう一度お試しください。"
+  },
+  "tryingSource": {
+    "message": "ソースを試行中 $1 / $2 · $3 秒経過"
+  },
+  "downloadStarted": {
+    "message": "利用可能なソースが見つかり、ダウンロードを開始しました。"
+  },
+  "noPage": {
+    "message": "MovieFFM の映画ページを開いてください。"
+  },
+  "wrongPage": {
+    "message": "現在のページは MovieFFM ではありません。"
+  },
+  "noSources": {
+    "message": "利用可能なダウンロードソースが見つかりません。動画ページの読み込みを確認してください。"
+  },
+  "permissionDenied": {
+    "message": "ダウンロードを開始するには、動画ソースへの接続を許可してください。"
+  },
+  "allSourcesFailed": {
+    "message": "すべてのダウンロードソースを利用できません。後でもう一度お試しください。"
+  },
+  "failureReasonLabel": {
+    "message": "失敗理由："
+  },
+  "downloadFailed": {
+    "message": "ダウンロードに失敗しました。ソースを確認して再試行してください。"
+  },
+  "readyHint": {
+    "message": "MovieFFM の動画ページを開き、「ダウンロード」を押すと各ソースを自動で試します。"
+  },
+  "readingSources": {
+    "message": "動画ソースを読み込み中…"
+  },
+  "requestingPermission": {
+    "message": "動画ソースへの接続を許可してください…"
+  },
+  "downloadingProgress": {
+    "message": "ダウンロード中 $1%"
+  },
+  "downloadComplete": {
+    "message": "ダウンロードが完了しました。"
+  },
+  "downloadInterrupted": {
+    "message": "ダウンロードが中断されました。もう一度お試しください。"
+  },
+  "openSiteButton": {
+    "message": "MovieFFM を開く"
+  },
+  "openSiteFailed": {
+    "message": "MovieFFM を開けませんでした。もう一度お試しください。"
+  }
+}

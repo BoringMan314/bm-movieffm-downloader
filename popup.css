@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+:root { color-scheme: light dark; font-family: system-ui, "Segoe UI", sans-serif; }
+body { width: 320px; margin: 0; color: #17202b; background: #f7f8fa; font-size: 13px; }
+.wrap { padding: 18px; }
+.heading { display: flex; align-items: center; gap: 11px; margin-bottom: 18px; }
+.brand-mark { display: block; width: 38px; height: 38px; flex: 0 0 38px; object-fit: contain; }
+.heading-copy { min-width: 0; }
+.title { margin: 0; font-size: 15px; font-weight: 680; line-height: 1.35; letter-spacing: -.2px; }
+.version { margin: 3px 0 0; color: #7c8794; font-size: 11px; }
+.button-list { display: grid; gap: 8px; }
+.download-control-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.download-control-row[hidden], .btn[hidden] { display: none; }
+.btn { display: flex; align-items: center; justify-content: center; gap: 9px; width: 100%; min-height: 44px; border: 0; border-radius: 10px; color: #fff; background: #df3345; box-shadow: 0 2px 5px #aa23302b; font: inherit; font-size: 14px; font-weight: 650; cursor: pointer; transition: background .15s, transform .15s, box-shadow .15s; }
+.btn:hover { background: #c9273a; box-shadow: 0 4px 10px #aa233038; }
+.btn:active { transform: translateY(1px); }
+.btn:focus-visible { outline: 3px solid #ee929b; outline-offset: 2px; }
+.btn:disabled { opacity: .64; cursor: wait; }
+.download-icon { font-size: 19px; font-weight: 500; line-height: 1; }
+.open-icon { font-size: 17px; font-weight: 500; line-height: 1; }
+.status { min-height: 54px; margin: 12px 1px 0; color: #627080; font-size: 12px; line-height: 1.6; white-space: pre-line; }
+.status[data-kind="ok"] { color: #16804a; }
+.status[data-kind="error"] { color: #bf2b39; }
+.progress-track { height: 4px; overflow: hidden; margin: 1px 1px 2px; border-radius: 99px; background: #e5e8ec; }
+.progress-bar { width: 0; height: 100%; border-radius: inherit; background: #df3345; transition: width .2s; }
+@media (prefers-color-scheme: dark) {
+  body { color: #eef1f5; background: #202328; }
+  .version, .status { color: #a6afbb; }
+  .status[data-kind="ok"] { color: #68d498; }
+  .status[data-kind="error"] { color: #ff818b; }
+  .progress-track { background: #3a3e45; }
+}

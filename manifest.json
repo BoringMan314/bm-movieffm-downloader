@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "0.1.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "zh_TW",
+  "incognito": "split",
+  "icons": {
+    "192": "icons/movieffm.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "storage",
+    "offscreen"
+  ],
+  "optional_host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/movieffm.png",
+    "default_title": "__MSG_extName__"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
